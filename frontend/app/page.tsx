@@ -1,11 +1,10 @@
-// app/page.tsx
-
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-800">
+
       {/* Hero Section */}
       <section className="flex items-center justify-center px-6 py-16">
         <div className="max-w-7xl w-full grid md:grid-cols-2 gap-10 items-center">
@@ -74,19 +73,34 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6 text-left">
             <div className="p-6 border rounded-lg shadow-sm">
               <p className="italic">"Pelayanan cepat dan kameranya berkualitas. Sangat puas!"</p>
-              <p className="mt-4 font-semibold">- Jefri, Bandar Lampung</p>
+              <p className="mt-4 font-semibold">- Aulia, Jakarta</p>
             </div>
             <div className="p-6 border rounded-lg shadow-sm">
               <p className="italic">"Sewa kamera di KameraKu jadi solusi pas hunting dadakan."</p>
-              <p className="mt-4 font-semibold">- Bejo, Metro</p>
+              <p className="mt-4 font-semibold">- Rizky, Bandung</p>
             </div>
             <div className="p-6 border rounded-lg shadow-sm">
               <p className="italic">"Harga bersahabat dan banyak pilihan. Recommended!"</p>
-              <p className="mt-4 font-semibold">- Candra, Pesawaran</p>
+              <p className="mt-4 font-semibold">- Dita, Surabaya</p>
             </div>
           </div>
         </div>
       </section>
+
+      {/* CTA Akhir */}
+      <section className="bg-blue-700 text-white py-16">
+        <div className="max-w-4xl mx-auto text-center px-6">
+          <h2 className="text-3xl font-bold mb-4">Siap untuk Menyewa Kamera?</h2>
+          <p className="mb-8 text-lg">Nikmati pengalaman memotret dengan kamera terbaik hanya di KameraKu.</p>
+          <Link
+            href="/sewa"
+            className="inline-block px-8 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-full hover:bg-yellow-300 transition"
+          >
+            Mulai Sewa Sekarang
+          </Link>
+        </div>
+      </section>
+
     </main>
   );
 }
