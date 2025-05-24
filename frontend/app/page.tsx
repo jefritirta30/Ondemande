@@ -66,6 +66,27 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Testimoni Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-6 text-center">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-blue-700">Apa Kata Mereka?</h2>
+          <div className="grid md:grid-cols-3 gap-6 text-left">
+            <div className="p-6 border rounded-lg shadow-sm">
+              <p className="italic">"Pelayanan cepat dan kameranya berkualitas. Sangat puas!"</p>
+              <p className="mt-4 font-semibold">- Jefri, Bandar Lampung</p>
+            </div>
+            <div className="p-6 border rounded-lg shadow-sm">
+              <p className="italic">"Sewa kamera di KameraKu jadi solusi pas hunting dadakan."</p>
+              <p className="mt-4 font-semibold">- Bejo, Metro</p>
+            </div>
+            <div className="p-6 border rounded-lg shadow-sm">
+              <p className="italic">"Harga bersahabat dan banyak pilihan. Recommended!"</p>
+              <p className="mt-4 font-semibold">- Candra, Pesawaran</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
