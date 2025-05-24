@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -13,12 +13,12 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Image
-              src="/logokamera.png" // Ganti dengan logo Kameraku
-              alt="Logo Kameraku"
+              src="/logokamera.png" // Ganti dengan logo KameraKu
+              alt="Logo KameraKu"
               width={45}
               height={45}
             />
-            <span className="text-white font-bold text-xl ml-2">Kameraku</span>
+            <span className="text-white font-bold text-xl ml-2">KameraKu</span>
           </div>
 
           {/* Menu Links */}
