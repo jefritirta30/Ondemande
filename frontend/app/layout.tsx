@@ -1,9 +1,10 @@
 // layout.tsx
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Poppins } from "next/font/google"; // Tambahkan ini
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer"; // ✅ Import Footer
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,8 @@ export default function RootLayout({
     <html lang="en" className={`${poppins.variable} ${geistSans.variable} ${geistMono.variable}`}>
       <body className="antialiased">
         <Navbar />
-        {children}
+        <main className="min-h-screen">{children}</main>
+        <Footer /> {/* ✅ Tambahkan Footer di sini */}
       </body>
     </html>
   );
