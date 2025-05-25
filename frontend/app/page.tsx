@@ -17,13 +17,13 @@ export default function Home() {
             <div className="flex gap-4">
               <Link
                 href="/kamera"
-                className="px-6 py-3 bg-blue-700 text-white rounded-full font-medium hover:bg-blue-800 transition"
+                className="px-6 py-3 bg-blue-700 text-white rounded-full font-medium hover:bg-blue-800 active:scale-95 transition transform"
               >
                 Lihat Kamera
               </Link>
               <Link
                 href="/sewa"
-                className="px-6 py-3 border border-yellow-400 text-yellow-400 rounded-full font-medium hover:bg-yellow-400 hover:text-blue-800 transition"
+                className="px-6 py-3 bg-yellow-400 text-blue-900 rounded-full font-semibold hover:bg-yellow-500 active:bg-yellow-600 active:scale-95 transition transform"
               >
                 Sewa Sekarang
               </Link>
@@ -77,15 +77,21 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-blue-700">Apa Kata Mereka?</h2>
           <div className="grid md:grid-cols-3 gap-6 text-left">
             <div className="p-6 border rounded-lg shadow-sm">
-              <p className="italic">"Pelayanan cepat dan kameranya berkualitas. Sangat puas!"</p>
+              <p className="italic">
+                "Pelayanan cepat dan kameranya berkualitas. Sangat puas!"
+              </p>
               <p className="mt-4 font-semibold">- Jefri Jaka Tirta, Bandar Lampung</p>
             </div>
             <div className="p-6 border rounded-lg shadow-sm">
-              <p className="italic">"Sewa kamera di KameraKu jadi solusi pas hunting dadakan."</p>
+              <p className="italic">
+                "Sewa kamera di KameraKu jadi solusi pas hunting dadakan."
+              </p>
               <p className="mt-4 font-semibold">- Bejo, Metro</p>
             </div>
             <div className="p-6 border rounded-lg shadow-sm">
-              <p className="italic">"Harga bersahabat dan banyak pilihan. Recommended!"</p>
+              <p className="italic">
+                "Harga bersahabat dan banyak pilihan. Recommended!"
+              </p>
               <p className="mt-4 font-semibold">- Candra Sasmito, Pesawaran</p>
             </div>
           </div>
@@ -120,9 +126,9 @@ export default function Home() {
           </p>
           <Link
             href="/sewa"
-            className="inline-block px-8 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-full hover:bg-yellow-300 transition"
+            className="inline-block px-8 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-full hover:bg-yellow-500 active:bg-yellow-600 active:scale-95 transition transform"
           >
-            Mulai Sewa Sekarang
+            Sewa Sekarang
           </Link>
         </div>
       </section>
