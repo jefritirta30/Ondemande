@@ -23,7 +23,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/sewa"
-                className="px-6 py-3 border border-blue-700 text-blue-700 rounded-full font-medium hover:bg-blue-700 hover:text-white transition"
+                className="px-6 py-3 border border-yellow-400 text-yellow-400 rounded-full font-medium hover:bg-yellow-400 hover:text-blue-800 transition"
               >
                 Sewa Sekarang
               </Link>
@@ -77,21 +77,15 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-semibold mb-8 text-blue-700">Apa Kata Mereka?</h2>
           <div className="grid md:grid-cols-3 gap-6 text-left">
             <div className="p-6 border rounded-lg shadow-sm">
-              <p className="italic">
-                "Pelayanan cepat dan kameranya berkualitas. Sangat puas!"
-              </p>
+              <p className="italic">"Pelayanan cepat dan kameranya berkualitas. Sangat puas!"</p>
               <p className="mt-4 font-semibold">- Jefri Jaka Tirta, Bandar Lampung</p>
             </div>
             <div className="p-6 border rounded-lg shadow-sm">
-              <p className="italic">
-                "Sewa kamera di KameraKu jadi solusi pas hunting dadakan."
-              </p>
+              <p className="italic">"Sewa kamera di KameraKu jadi solusi pas hunting dadakan."</p>
               <p className="mt-4 font-semibold">- Bejo, Metro</p>
             </div>
             <div className="p-6 border rounded-lg shadow-sm">
-              <p className="italic">
-                "Harga bersahabat dan banyak pilihan. Recommended!"
-              </p>
+              <p className="italic">"Harga bersahabat dan banyak pilihan. Recommended!"</p>
               <p className="mt-4 font-semibold">- Candra Sasmito, Pesawaran</p>
             </div>
           </div>
