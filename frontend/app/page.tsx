@@ -17,13 +17,13 @@ export default function Home() {
             <div className="flex gap-4">
               <Link
                 href="/kamera"
-                className="px-6 py-3 bg-blue-700 text-white rounded-full font-medium hover:bg-blue-800 transition"
+                className="px-6 py-3 bg-blue-700 text-white rounded-full font-medium hover:bg-blue-800 active:scale-95 transition transform"
               >
                 Lihat Kamera
               </Link>
               <Link
                 href="/sewa"
-                className="px-6 py-3 border border-blue-700 text-blue-700 rounded-full font-medium hover:bg-blue-700 hover:text-white transition"
+                className="px-6 py-3 bg-yellow-400 text-blue-900 rounded-full font-semibold hover:bg-yellow-500 active:bg-yellow-600 active:scale-95 transition transform"
               >
                 Sewa Sekarang
               </Link>
@@ -126,9 +126,9 @@ export default function Home() {
           </p>
           <Link
             href="/sewa"
-            className="inline-block px-8 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-full hover:bg-yellow-300 transition"
+            className="inline-block px-8 py-3 bg-yellow-400 text-blue-900 font-semibold rounded-full hover:bg-yellow-500 active:bg-yellow-600 active:scale-95 transition transform"
           >
-            Mulai Sewa Sekarang
+            Sewa Sekarang
           </Link>
         </div>
       </section>
