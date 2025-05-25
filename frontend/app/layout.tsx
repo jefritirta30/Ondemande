@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer"; // ✅ Import Footer
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,10 +35,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${poppins.variable} ${geistSans.variable} ${geistMono.variable}`}>
-      <body className="antialiased">
+      <body className="antialiased bg-[#0C0950] text-white">
         <Navbar />
         <main className="min-h-screen">{children}</main>
-        <Footer /> {/* ✅ Tambahkan Footer di sini */}
+        <Footer />
       </body>
     </html>
   );
