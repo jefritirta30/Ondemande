@@ -30,13 +30,15 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <Image
-              src="/fotohero.png"
-              alt="Kamera Hero"
-              width={500}
-              height={350}
-              className="rounded-xl shadow-lg"
-            />
+            <div className="bg-[#261FB3] p-4 rounded-xl shadow-2xl">
+              <Image
+                src="/fotohero.png"
+                alt="Kamera Hero"
+                width={500}
+                height={350}
+                className="rounded-md"
+              />
+            </div>
           </div>
         </div>
       </section>
