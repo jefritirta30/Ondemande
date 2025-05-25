@@ -30,13 +30,13 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className="bg-[#261FB3] p-4 rounded-xl shadow-2xl">
+            <div className="bg-[#261FB3] pt-4 px-4 pb-0 rounded-xl shadow-2xl">
               <Image
                 src="/fotohero.png"
                 alt="Kamera Hero"
                 width={500}
                 height={350}
-                className="rounded-md"
+                className="rounded-b-xl w-full h-auto block"
               />
             </div>
           </div>
