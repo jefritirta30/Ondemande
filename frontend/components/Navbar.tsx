@@ -47,6 +47,9 @@ const Navbar: React.FC = () => {
             <li>
               <Link href="/layanan" className="hover:text-yellow-300 transition">Layanan</Link>
             </li>
+            <li>
+              <Link href="/tentang" className="hover:text-yellow-300 transition">Tentang Kami</Link>
+            </li>
           </ul>
         </div>
 
@@ -65,6 +68,9 @@ const Navbar: React.FC = () => {
               </li>
               <li>
                 <Link href="/layanan" onClick={() => setMenuOpen(false)}>Layanan</Link>
+              </li>
+              <li>
+                <Link href="/tentang" onClick={() => setMenuOpen(false)}>Tentang Kami</Link>
               </li>
             </ul>
           </div>
