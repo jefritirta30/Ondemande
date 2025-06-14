@@ -7,6 +7,11 @@ const services = [
         description: "Kamera DSLR berkualitas tinggi untuk kebutuhan foto profesional, prewedding, dan dokumentasi acara.",       
         price: "Rp 150.000 / hari",
     },
+    {
+    title: "Sewa Kamera Mirrorless",
+    description: "Kamera mirrorless ringan dan praktis untuk vlog, traveling, dan keperluan konten kreatif.",
+    price: "Rp120.000 / hari",
+  },
 ]
 
 export default function LayananPage() {
