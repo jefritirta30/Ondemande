@@ -26,6 +26,8 @@ const services = [
 
 export default function LayananPage() {
   return (
-    <div>LayananPage</div>
+    <main className="max-w-4xl mx-auto px-4 py-10">
+        <h1 className="text-3xl font-bold mb-6 text-center">Layanan Sewa Kamera</h1>
+    </main>
   )
 }
