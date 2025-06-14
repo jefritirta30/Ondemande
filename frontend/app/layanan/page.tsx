@@ -17,6 +17,11 @@ const services = [
         description: "Berbagai jenis lensa seperti wide, tele, dan fix untuk memenuhi kebutuhan pemotretan spesifik.",
         price: "Mulai dari Rp50.000 / hari",
     },
+    {
+        title: "Paket Sewa Lengkap",
+        description: "Paket lengkap termasuk kamera, lensa, tripod, dan memory card siap digunakan langsung.",
+        price: "Rp250.000 / hari",
+    },
 ]
 
 export default function LayananPage() {
