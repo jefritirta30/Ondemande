@@ -34,7 +34,7 @@ export default function AboutPage() {
                     traveling, pembuatan konten, hingga proyek profesional.
                 </p>
             </div>
-
+            </div>
             {/* Lokasi Google Maps Section */}
             <section className="bg-[#0C0950] py-16 text-white">
                 <div className="max-w-5xl mx-auto px-6 text-center">
@@ -53,7 +53,6 @@ export default function AboutPage() {
                 </div>
                 </div>
             </section>
-        </div>
     </main>
   )
 }
