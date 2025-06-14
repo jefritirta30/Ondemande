@@ -32,6 +32,9 @@ const Navbar: React.FC = () => {
             <li>
               <Link href="/sewa" className="hover:text-yellow-300 transition">Sewa</Link>
             </li>
+            <li>
+              <Link href="/layanan" className="hover:text-yellow-300 transition">Layanan</Link>
+            </li>
           </ul>
 
         </div>
