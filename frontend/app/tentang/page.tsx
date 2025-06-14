@@ -15,6 +15,25 @@ export default function AboutPage() {
                 className="rounded-2xl shadow-md"
             />
             </div>
+
+            {/* description */}
+            <div className="md:w-1/2 text-gray-700 space-y-4 text-justify">
+                <p>
+                    <strong>KameraKu</strong> adalah layanan sewa kamera terpercaya yang
+                    berdiri sejak 2020. Kami menyediakan berbagai pilihan kamera DSLR,
+                    mirrorless, dan perlengkapan fotografi untuk mendukung aktivitas
+                    kreatif Anda.
+                </p>
+                <p>
+                    Dengan harga terjangkau dan layanan pelanggan yang ramah, kami
+                    berkomitmen untuk memberikan pengalaman sewa kamera yang mudah,
+                    aman, dan memuaskan.
+                </p>
+                <p>
+                    Kami melayani kebutuhan foto dan video untuk acara pernikahan,
+                    traveling, pembuatan konten, hingga proyek profesional.
+                </p>
+            </div>
         </div>
     </main>
   )
