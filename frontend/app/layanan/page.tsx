@@ -8,10 +8,15 @@ const services = [
         price: "Rp 150.000 / hari",
     },
     {
-    title: "Sewa Kamera Mirrorless",
-    description: "Kamera mirrorless ringan dan praktis untuk vlog, traveling, dan keperluan konten kreatif.",
-    price: "Rp120.000 / hari",
-  },
+        title: "Sewa Kamera Mirrorless",
+        description: "Kamera mirrorless ringan dan praktis untuk vlog, traveling, dan keperluan konten kreatif.",
+        price: "Rp 120.000 / hari",
+    },
+    {
+        title: "Sewa Lensa Tambahan",
+        description: "Berbagai jenis lensa seperti wide, tele, dan fix untuk memenuhi kebutuhan pemotretan spesifik.",
+        price: "Mulai dari Rp50.000 / hari",
+    },
 ]
 
 export default function LayananPage() {
