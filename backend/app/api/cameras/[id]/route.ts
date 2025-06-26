@@ -128,4 +128,13 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
         )
     }
 
+    // cek apakah id ada
+    const camera = await prisma.camera.findUnique(
+        {
+            where: {
+                id: Number(params.id)
+            }
+        }
+    )
+
 }
