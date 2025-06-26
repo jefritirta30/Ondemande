@@ -156,4 +156,15 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
     const { nama_value, deskripsi_value, harga_value, gambar_value } =
     await request.json()
 
+    // cek apakah data nama camera sudah pernah ada
+    const checkNamaCamera = await prisma.camera.findMany(
+        {
+            where: {
+                nama: nama_value,
+                NOT: { id: Number(params.id) }
+            },
+        }
+    )
+
+
 }
