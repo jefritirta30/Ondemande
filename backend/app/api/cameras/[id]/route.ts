@@ -166,5 +166,20 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
         }
     )
 
+    // jika data nama camera ditemukan
+    if (checkNamaCamera.length >= 1) {
+      return NextResponse.json(
+        {
+          metaData: {
+            error: 1,
+            message: 'Data camera gagal diubah! nama telah terdaftar.',
+            status: 409
+          }
+        },
+        {
+          status: 409
+        }
+      )
+    }
 
 }
