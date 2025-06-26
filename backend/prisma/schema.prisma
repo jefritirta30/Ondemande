@@ -15,7 +15,7 @@ datasource db {
 
 model Camera {
   id          Int       @id @default(autoincrement())
-  nama        String    @db.Varchar(255)
+  nama        String    
   deskripsi   String?
   harga       Float
   gambar      String
