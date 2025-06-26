@@ -137,4 +137,20 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
         }
     )
 
+    // jika data camera tidak ditemukan
+    if(!camera){
+        return NextResponse.json(
+            {
+                metaData: {
+                    error: 1,
+                    message: 'Data Camera Tidak Ditemukan',
+                    status: 404,
+                }
+            },
+            {
+                status: 404
+            }
+        )
+    }
+
 }
