@@ -84,5 +84,14 @@ export const DELETE = async (request: NextRequest, props: { params: Promise<{ id
         )
     }
 
+    // delete data
+    const deleteCamera = await prisma.camera.delete(
+        {
+            where: {
+                id: Number(params.id)
+            }
+        }
+    )
+
 
 }
