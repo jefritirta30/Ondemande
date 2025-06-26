@@ -107,3 +107,11 @@ export const DELETE = async (request: NextRequest, props: { params: Promise<{ id
         }
     )
 }
+
+// service PUT data camera
+export const PUT = async (request: NextRequest, props: { params: Promise<{ id: string }> }) => {
+    const params = await props.params
+
+   
+
+}
