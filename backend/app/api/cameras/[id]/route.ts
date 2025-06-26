@@ -197,4 +197,19 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
         }
     )
 
+    // kembalikan response
+    return NextResponse.json(
+        {
+            metaData: {
+                error: 0,
+                message: 'Data camera berhasil di ubah!',
+                status: 200,
+                data: edit,
+            }
+        },
+        {
+            status: 200
+        }
+    )
+
 }
