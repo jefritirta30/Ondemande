@@ -112,6 +112,20 @@ export const DELETE = async (request: NextRequest, props: { params: Promise<{ id
 export const PUT = async (request: NextRequest, props: { params: Promise<{ id: string }> }) => {
     const params = await props.params
 
-   
+    // validasi parameter
+    if(isNaN(Number(params.id))) {
+        return NextResponse.json(
+            {
+                metaData: {
+                    error: 0,
+                    message: 'Data camera berhasil di hapus!',
+                    status: 200
+                }
+            },
+            {
+                status: 200
+            }
+        )
+    }
 
 }
