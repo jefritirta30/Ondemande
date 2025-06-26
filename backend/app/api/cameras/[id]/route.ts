@@ -93,5 +93,17 @@ export const DELETE = async (request: NextRequest, props: { params: Promise<{ id
         }
     )
 
-
+    // kembalikan response
+    return NextResponse.json(
+        {
+            metaData: {
+                error: 0,
+                message: 'Data camera berhasil di hapus!',
+                status: 200
+            }
+        },
+        {
+            status: 200
+        }
+    )
 }
