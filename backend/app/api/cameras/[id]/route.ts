@@ -182,4 +182,19 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
       )
     }
 
+    // fungsi edit data camera
+    const edit = await prisma.camera.update(
+        {
+            where: {
+                id: Number(params.id),
+            },
+            data: {
+                nama: nama_value,
+                deskripsi: deskripsi_value,
+                harga: harga_value,
+                gambar: gambar_value,
+            }
+        }
+    )
+
 }
