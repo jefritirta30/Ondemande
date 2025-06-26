@@ -57,4 +57,18 @@ export async function GET(request: NextRequest, props: {params: Promise<{id: str
 }
 
 
-// 
+// service DELETE data camera
+export const DELETE = async (request: NextRequest, props: { params: Promise<{ id: string }> }) => {
+    const params = await props.params
+
+    // cek ketersediaan data 
+    const camera = await prisma.camera.findUnique({
+        where: {
+            id: Number(params.id),
+        }
+    })
+
+    
+
+
+}
