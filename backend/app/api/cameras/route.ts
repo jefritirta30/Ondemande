@@ -39,7 +39,7 @@ export const POST = async (request: NextRequest) => {
   if (check.length === 1) {
     return NextResponse.json(
       {
-        MetaData: {
+        metaData: {
           error: 1,
           message: 'Data Nama Camera Telah Terdaftar',
           status: 409
