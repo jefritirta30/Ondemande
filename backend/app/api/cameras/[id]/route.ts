@@ -153,4 +153,7 @@ export const PUT = async (request: NextRequest, props: { params: Promise<{ id: s
         )
     }
 
+    const { nama_value, deskripsi_value, harga_value, gambar_value } =
+    await request.json()
+
 }
