@@ -41,6 +41,42 @@ export default function KameraPage() {
       harga: 'Rp 130.000 / hari',
       gambar: '/kamera/olympus-omd.jpg',
     },
+    {
+      nama: 'Canon EOS R10',
+      deskripsi: 'Kamera mirrorless entry-level dengan Dual Pixel AF II dan video 4K 60fps.',
+      harga: 'Rp 155.000 / hari',
+      gambar: '/kamera/canon-r10.jpg',
+    },
+    {
+      nama: 'Sony ZV-E10',
+      deskripsi: 'Kamera vlog terbaik dengan flip screen dan kualitas audio bagus.',
+      harga: 'Rp 165.000 / hari',
+      gambar: '/kamera/sony-zve10.jpg',
+    },
+    {
+      nama: 'Fujifilm X-S10',
+      deskripsi: 'Kamera dengan grip besar, IBIS, dan video 4K untuk content creator.',
+      harga: 'Rp 175.000 / hari',
+      gambar: '/kamera/fujifilm-xs10.jpg',
+    },
+    {
+      nama: 'Nikon D5600',
+      deskripsi: 'Kamera DSLR ringan dengan layar putar dan SnapBridge.',
+      harga: 'Rp 135.000 / hari',
+      gambar: '/kamera/nikon-d5600.jpg',
+    },
+    {
+      nama: 'Panasonic GH5',
+      deskripsi: 'Kamera micro four thirds dengan performa video profesional.',
+      harga: 'Rp 200.000 / hari',
+      gambar: '/kamera/panasonic-gh5.jpg',
+    },
+    {
+      nama: 'Olympus PEN E-PL10',
+      deskripsi: 'Kamera stylish dan ringan untuk travel dan daily shoot.',
+      harga: 'Rp 125.000 / hari',
+      gambar: '/kamera/olympus-pen.jpg',
+    },
   ];
 
   return (
