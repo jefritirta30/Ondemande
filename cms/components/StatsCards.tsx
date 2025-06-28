@@ -8,7 +8,7 @@ const StatsCards = () => {
         <div className="flex justify-between">
           <div>
             <p className="text-gray-500">Total Kamera</p>
-            <h3 className="text-2xl font-bold">24</h3>
+            <h3 className="text-2xl font-bold text-black">24</h3>
             <p className="text-sm text-green-500 mt-1 flex items-center">
               <span className="inline-flex items-center">
                 <svg
@@ -39,7 +39,7 @@ const StatsCards = () => {
         <div className="flex justify-between">
           <div>
             <p className="text-gray-500">Total Nilai</p>
-            <h3 className="text-2xl font-bold">Rp 187.350.000</h3>
+            <h3 className="text-2xl font-bold text-black">Rp 187.350.000</h3>
             <p className="text-sm text-green-500 mt-1 flex items-center">
               <span className="inline-flex items-center">
                 <svg
@@ -70,7 +70,7 @@ const StatsCards = () => {
         <div className="flex justify-between">
           <div>
             <p className="text-gray-500">Baru Ditambahkan</p>
-            <h3 className="text-2xl font-bold">5</h3>
+            <h3 className="text-2xl font-bold text-black">5</h3>
             <p className="text-sm text-green-500 mt-1 flex items-center">
               <span className="inline-flex items-center">
                 <svg
