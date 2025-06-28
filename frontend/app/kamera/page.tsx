@@ -123,7 +123,7 @@ export default function KameraPage() {
       nama: 'Sony RX100 VII',
       deskripsi: 'Compact premium dengan zoom panjang dan eye AF.',
       harga: 'Rp 190.000 / hari',
-      gambar: '/kamera/kamera20.jpg',
+      gambar: '/kamera/kamera20.jpeg',
     },
     {
       nama: 'Fujifilm X-Pro3',
