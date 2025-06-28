@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function KameraPage() {
   const [lihatSemua, setLihatSemua] = useState(false);
@@ -59,9 +60,11 @@ export default function KameraPage() {
               <h2 className="text-sm font-semibold">{kamera.nama}</h2>
               <p className="text-gray-600 text-xs mt-1">{kamera.deskripsi}</p>
               <p className="mt-1 text-sm font-medium text-blue-600">{kamera.harga}</p>
-              <button className="mt-3 w-full py-1.5 text-sm bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
-                Sewa
-              </button>
+              <Link href="/sewa" passHref>
+                <button className="mt-3 w-full py-1.5 text-sm bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+                  Sewa
+                </button>
+              </Link>
             </div>
           ))}
         </div>
