@@ -70,7 +70,7 @@ export default function KameraPage() {
           <div className="flex justify-center mt-8">
             <button
               onClick={() => setLihatSemua(true)}
-              className="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
+              className="px-6 py-2 bg-yellow-400 text-white rounded-full hover:bg-yellow-500 transition"
             >
               Lihat Semua
             </button>
